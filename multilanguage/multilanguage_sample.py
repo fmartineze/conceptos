@@ -14,6 +14,4 @@ langs = gettext.translation('sample_app',
 _ = langs.gettext
 
 print ("*** This is a multilanguage test file *** ")
-sample_text = "This is a sample text"
-print ("Sample text:  " + sample_text)
-print ("Translated text:  " + _("Translated text"))
+print (_("Translated text"))
